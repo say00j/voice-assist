@@ -1,5 +1,4 @@
 from vosk import Model, KaldiRecognizer
-import subprocess
 import pyaudio
 
 model = Model(r"C:\Users\sayoo\programming\python\vosk-model-small-en-us-0.15") #eng us lite
