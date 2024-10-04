@@ -9,6 +9,8 @@ recognizer = KaldiRecognizer(model, 16000)
 
 chunk = 8192
 
+wakeWord = []
+
 youtubeData =  ["open you do",
                 "often you do",
                 "attorney you do",
